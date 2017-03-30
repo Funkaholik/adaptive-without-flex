@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1025px), only screen (max-device-width: 1025px) {
+  .columns__item__text {
+    width: 90%;
+    text-indent: 2em;
+  }
+}
+
+@media only screen and (max-width: 769px), only screen (max-device-width: 769px) {
+  .navigation__logo {
+    margin-left: 1.35em
+  }
+  .columns {
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  .columns__item {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .columns__item__img {
+    float: left;
+    width: 25%;
+    height: 10em;
+    margin: 2.5% 2.5% 0 2.5%;
+  }
+  .columns__item__img-2 {
+    float: right;
+    width: 25%;
+  }
+  .columns__item__heading {
+    max-width: 100%;
+    text-align: center;
+    margin: 2.5% auto;
+    margin-top: 5%;
+  }
+  .columns__item__text {
+    width: 100%;
+    margin: 0 auto;
+    text-indent: 0;
+    padding: 0 2.5% 0 2.5%;
+  }  
+}
+
+@media only screen and (max-width: 426px), only screen (max-device-width: 426px) {
+  .navigation {
+    position: relative;
+  }
+  .navigation__logo {
+    margin-left: 1em;
+  }
+  .menu {
+    background-color: #EEE;
+    width: 25%;
+    padding-top: 5.25em;
+    z-index: 1;
+  }
+  .menu:hover {
+    width: 100%;
+    padding-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: visible;
+  }
+  .menu__item {
+    background-color: #EEE;
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+  .header-top {
+    display: none;
+  }
+  .columns {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  .columns__item {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .columns__item__img {
+    background-color: #CCC;
+    width: 75%;
+    height: 10em;
+    float: none;
+    margin: 0 auto;
+  }
+  .columns__item__text {
+    width: 95%;
+    margin: 0 auto;
+    text-align: justify;
+    text-indent: 3em;
+  }
+}
